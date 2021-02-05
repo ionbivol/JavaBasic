@@ -25,22 +25,16 @@ public class Exercise1 {
 
         String[] cars = {"Volvo","BMw","Ford"};
         System.out.println(cars.length);            //Lungimea Array
-        for(String i : cars){
+        for(String i : cars) {
             System.out.println(i);
 
 
-
-            for(int i1=0;i1<14;i1++) {
-                
-                System.out.println(i1);
-            }
-
-            }
-
-
         }
 
-        }
+
+    }
+
+}
 
 
 
