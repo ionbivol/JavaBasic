@@ -13,8 +13,11 @@ those types using Scanner. What values are you able to enter for each type?*/
         byte b;
         char c;
 
+        System.out.println("Enter an float number");
         a = scanner.nextFloat();
+        System.out.println("Enter an byte number");
         b = scanner.nextByte();
+        System.out.println("Enter an char");
         c = scanner.next().charAt(0);
 
         System.out.println("The float number is: " + a);
