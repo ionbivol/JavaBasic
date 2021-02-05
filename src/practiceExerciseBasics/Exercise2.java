@@ -11,7 +11,7 @@ public class Exercise2 {
 
         double number = 45.45615;
         System.out.printf("%.2f",number); //This is version with the initialized number
-        System.out.println(String.format("\n%.2f",number));   // %n or \n =new line
+        System.out.println(String.format("\n%.2f",number));   //This is another version
 
         System.out.printf("%.2f\n", 2.456786);      //another way to format a number
         System.out.printf("%.3f",102.156545);
@@ -20,8 +20,8 @@ public class Exercise2 {
         // format an entered number
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a double number\n");
-        double intNumber = scanner.nextDouble();
-        System.out.printf("Yours formatted number is: "+"%.1f",intNumber);
+        double intDoubleNumber = scanner.nextDouble();
+        System.out.printf("Yours formatted number is: "+"%.1f",intDoubleNumber);
 
 
     }
