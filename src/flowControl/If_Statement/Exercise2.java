@@ -1,24 +1,16 @@
 package flowControl.If_Statement;
 
-import java.util.Scanner;
-
 public class Exercise2 {
+
     public static void main(String[] args) {
 
-        //Write a program that will allow the user to type an year,
-        // check it out if this is a leap year or not.
+        // check if a number is odd or even
 
-        Scanner scanner =  new Scanner(System.in);
-
-        System.out.println("Enter an year to check if it's leap ");
-        int year = scanner.nextInt();
-
-
-        if (year % 4 == 0 && year != 0 || year % 100 == 0) {
-            System.out.println("is leap year");
+        int value = 7;
+        if (value % 2 == 0) {
+            System.out.println("The value: " + value + " is even ");
         } else {
-            System.out.println("is not leap year");
-
+            System.out.println("The value: " + "'" + value + "'" + " is odd ");
         }
     }
 }
