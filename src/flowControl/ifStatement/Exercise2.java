@@ -1,4 +1,4 @@
-package flowControl.If_Statement;
+package flowControl.ifStatement;
 
 public class Exercise2 {
 

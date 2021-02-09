@@ -1,4 +1,4 @@
-package flowControl.If_Statement;
+package flowControl.ifStatement;
 
 import java.util.Scanner;
 
