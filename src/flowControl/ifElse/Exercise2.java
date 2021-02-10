@@ -1,4 +1,4 @@
-package flowControl.ifStatement;
+package flowControl.ifElse;
 
 public class Exercise2 {
 

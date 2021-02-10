@@ -1,4 +1,4 @@
-package flowControl.ifStatement;
+package flowControl.ifElse;
 
 public class TernaryOperator {
     public static void main(String[] args) {
